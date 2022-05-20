@@ -2,7 +2,7 @@ def main():
     name = input('What is your name?')
     print(f'Hello {name}')
     valid = False
-    while valid == False:
+    while not valid:
         cheese_opinion = input('Do you like cheese?')
         if cheese_opinion == 'yes':
             recipe = 'Caprese salad'
