@@ -5,6 +5,11 @@ recipes = [
      "ingredients":["apple", "cinnamon"],
      "url": "https://www.bbc.co.uk/food/recipes/applecrumble_2971"},
 
+    {"name": "Apple scotch",
+     "type": "sweet",
+     "ingredients":["apple", "cinnamon", "egg", "walnuts", "oats"],
+     "url": "http://q.geek.nz/recipes/apple_scotch.html"},
+
     {"name": "Carrot and coriander soup",
      "type": "savoury",
      "ingredients":["carrot", "ground coriander", "fresh coriander"],
