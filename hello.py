@@ -1,9 +1,9 @@
 def main():
-    name = input('What is your name?')
+    name = input('What is your name? ')
     print(f'Hello {name}')
 
     while True:
-        cheese_opinion = input('Do you like cheese?')
+        cheese_opinion = input('Do you like cheese? ')
         if cheese_opinion in ('yes', 'no'):
             break
         print("Please answer yes or no.")
