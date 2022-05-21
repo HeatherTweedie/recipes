@@ -35,6 +35,11 @@ recipes = [
      "ingredients":["gnocchi", "pepper", "basil", "mozzerella"],
      "url": "https://www.bbcgoodfood.com/recipes/gnocchi-tomato-bake"},
 
+    {"name": "Lentil and sweet potato curry",
+     "type": "savoury",
+     "ingredients":["lentils", "ginger", "red curry paste", "sweet potato"],
+     "url": "https://feelgoodfoodie.net/recipe/red-lentil-curry/"},
+
     {"name": "Thai green curry",
      "type": "savoury",
      "ingredients":["thai green curry paste", "chilli", "butternut squash", "pepper", "coconut milk", "mangetout", "baby corn", "fresh coriander"],
