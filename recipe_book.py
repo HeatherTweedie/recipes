@@ -43,7 +43,7 @@ recipes = [
     {"name": "Thai green curry",
      "type": "savoury",
      "ingredients":["thai green curry paste", "chilli", "butternut squash", "pepper", "coconut milk", "mangetout", "baby corn", "fresh coriander"],
-     "url": "https://cookieandkate.com/vegetarian-chili-recipe/"},
+     "url": "https://www.bbcgoodfood.com/recipes/vegetarian-thai-green-curry"},
 
     {"name": "Vegetable chili",
      "type": "savoury",
