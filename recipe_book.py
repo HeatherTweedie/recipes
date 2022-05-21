@@ -45,6 +45,11 @@ recipes = [
      "ingredients":["thai green curry paste", "chilli", "butternut squash", "pepper", "coconut milk", "mangetout", "baby corn", "fresh coriander"],
      "url": "https://www.bbcgoodfood.com/recipes/vegetarian-thai-green-curry"},
 
+    {"name": "Tomato and halloumi bake",
+     "type": "savoury",
+     "ingredients":["halloumi", "aubergine", "courgette"],
+     "url": "https://www.tamingtwins.com/grilled-halloumi-cheese-bake-recipe/"},
+
     {"name": "Vegetable chili",
      "type": "savoury",
      "ingredients":["pepper", "carrot", "celery", "beans", "fresh coriander"],
