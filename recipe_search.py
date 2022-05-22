@@ -1,4 +1,4 @@
-"""Function to search a dictionary of recipes for given criteria and return those that match"""
+"""Function to search a list of recipes for given criteria and return those that match"""
 
 
 from recipe_book import recipes
@@ -9,8 +9,8 @@ def recipe_search(recipes):
 
     while repeat == True:
 
-        ingredient = input("\nWhich ingredient would you like to search by?")
-        type = input("Would you like to make something sweet or savoury?")
+        ingredient = input("\nWhich ingredient would you like to search by? ")
+        type = input("Would you like to make something sweet or savoury? ")
         suggestions = "\n"
 
         for recipe in recipes:
@@ -26,7 +26,7 @@ def recipe_search(recipes):
 
         valid = False
         while valid == False:
-            new_search = input("Would you like to carry out another search? [y/n]")
+            new_search = input("Would you like to carry out another search? [y/n] ")
             if new_search in ('y', 'n'):
                 if new_search == 'y':
                     valid = True
