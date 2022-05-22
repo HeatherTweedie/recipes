@@ -27,7 +27,6 @@ def get_valid_type():
 def recipe_search(recipes):
 
     repeat = True
-
     while repeat == True:
         
         ingredient = get_valid_ingredient()
