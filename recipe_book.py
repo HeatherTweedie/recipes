@@ -45,6 +45,11 @@ recipes = [
      "ingredients": ["pepper", "carrot", "courgette", "couscous", "chickpeas", "almonds", "fresh coriander"],
      "url": "https://www.cookingclassy.com/moroccan-couscous-roasted-vegetables-chick-peas-almonds/"},
 
+    {"name": "Oatmeal raisin cookies",
+     "category": "sweet",
+     "ingredients": ["egg", "black treacle", "raisins", "oats", "walnuts"],
+     "url": "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"},
+
     {"name": "Thai green curry",
      "category": "savoury",
      "ingredients": ["thai green curry paste", "chilli", "butternut squash", "pepper", "coconut milk", "mangetout", "baby corn", "fresh coriander"],
