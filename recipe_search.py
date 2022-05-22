@@ -13,16 +13,8 @@ def get_valid(prompt, correction_prompt, validator):
             return result
 
 
-def is_valid_ingredient(ingredient):
-    return ingredient
-
-
-def is_valid_category(category):
-    return category in ("sweet", "savoury")
-
-
 def recipe_search(recipes):
-    
+
     while True:
         
         INGREDIENT_PROMPT = "\nWhich ingredient would you like to search by? "
@@ -30,8 +22,8 @@ def recipe_search(recipes):
         CATEGORY_PROMPT = "Would you like to make something sweet or savoury? "
         CATEGORY_CORRECTION_PROMPT = "\nPlease answer with 'sweet' or 'savoury'.\n"
 
-        ingredient = get_valid(INGREDIENT_PROMPT, INGREDIENT_CORRECTION_PROMPT, is_valid_ingredient)
-        category = get_valid(CATEGORY_PROMPT, CATEGORY_CORRECTION_PROMPT, is_valid_category)
+        ingredient = get_valid(INGREDIENT_PROMPT, INGREDIENT_CORRECTION_PROMPT, lambda ingredient : ingredient)
+        category = get_valid(CATEGORY_PROMPT, CATEGORY_CORRECTION_PROMPT, lambda category : category in ("sweet", "savoury"))
 
         suggestions = [f"{recipe['name']}: {recipe['url']}" for recipe in recipes
             if ingredient in recipe["ingredients"] and category in recipe["category"]]
