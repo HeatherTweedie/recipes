@@ -6,28 +6,27 @@ from recipe_book import recipes
 
 def get_valid_ingredient():
 
-    valid_ingredient = False
-    while valid_ingredient == False:
+    while True:
         ingredient = input("\nWhich ingredient would you like to search by? ")
-        if type(ingredient) != "<class 'str'>":
+        if not ingredient:
             print("\nPlease enter a string.\n")
+        else:
+            return ingredient
 
 
 def get_valid_type():
 
-    valid_type = False
-    while valid_type == False:
+    while True:
         type = input("Would you like to make something sweet or savoury? ")
         if type not in ("sweet", "savoury"):
             print("\nPlease answer with 'sweet' or 'savoury'.\n")
         else:
-            valid_type = True
+            return type
 
 
 def recipe_search(recipes):
 
-    repeat = True
-    while repeat == True:
+    while True:
         
         ingredient = get_valid_ingredient()
         type = get_valid_type()
@@ -44,18 +43,13 @@ def recipe_search(recipes):
         else:
             print(f"\n{type.title()} recipes containing {ingredient}: \n{suggestions}")
 
-        valid = False
-        while valid == False:
+        while True:
             new_search = input("Would you like to carry out another search? [y/n] ")
-            if new_search in ('y', 'n'):
-                if new_search == 'y':
-                    valid = True
-                    repeat = True
-                if new_search == 'n':
-                    valid = True
-                    repeat = False
+            if new_search == 'y':
+                break
+            elif new_search == 'n':
+                return
             else:
-                valid = False
                 print("\nPlease answer with y (yes) or n (no).\n")
 
 recipe_search(recipes)
