@@ -34,14 +34,14 @@ def recipe_search(recipes):
             print(f"\n{category.title()} recipes containing {ingredient}:\n")
             print("\n".join(suggestions))
 
-        while True:
-            new_search = input("\nWould you like to carry out another search? [y/n] ")
-            if new_search == 'y':
-                break
-            elif new_search == 'n':
-                return
-            else:
-                print("\nPlease answer with y (yes) or n (no).\n")
+        NEW_SEARCH_PROMPT = "\nWould you like to carry out another search? [y/n] "
+        NEW_SEARCH_CORRECTION_PROMPT = "\nPlease answer with y (yes) or n (no).\n"
+
+        new_search = get_valid(NEW_SEARCH_PROMPT, NEW_SEARCH_CORRECTION_PROMPT, lambda result : result in ("y", "n"))
+        
+        if new_search == 'n':
+            return
+
 
 
 recipe_search(recipes)
