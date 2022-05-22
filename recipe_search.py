@@ -3,14 +3,35 @@
 
 from recipe_book import recipes
 
+
+def get_valid_ingredient():
+
+    valid_ingredient = False
+    while valid_ingredient == False:
+        ingredient = input("\nWhich ingredient would you like to search by? ")
+        if type(ingredient) != "<class 'str'>":
+            print("\nPlease enter a string.\n")
+
+
+def get_valid_type():
+
+    valid_type = False
+    while valid_type == False:
+        type = input("Would you like to make something sweet or savoury? ")
+        if type not in ("sweet", "savoury"):
+            print("\nPlease answer with 'sweet' or 'savoury'.\n")
+        else:
+            valid_type = True
+
+
 def recipe_search(recipes):
 
     repeat = True
 
     while repeat == True:
-
-        ingredient = input("\nWhich ingredient would you like to search by? ")
-        type = input("Would you like to make something sweet or savoury? ")
+        
+        ingredient = get_valid_ingredient()
+        type = get_valid_type()
         suggestions = "\n"
 
         for recipe in recipes:
