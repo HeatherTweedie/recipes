@@ -4,32 +4,34 @@
 from recipe_book import recipes
 
 
-def get_valid_ingredient():
-
+def get_valid(prompt, correction_prompt, validator):
     while True:
-        ingredient = input("\nWhich ingredient would you like to search by? ")
-        if not ingredient:
-            print("\nPlease enter a string.\n")
+        result = input(prompt)
+        if not validator(result):
+            print(correction_prompt)
         else:
-            return ingredient
+            return result
 
 
-def get_valid_category():
+def is_valid_ingredient(ingredient):
+    return ingredient
 
-    while True:
-        category = input("Would you like to make something sweet or savoury? ")
-        if category not in ("sweet", "savoury"):
-            print("\nPlease answer with 'sweet' or 'savoury'.\n")
-        else:
-            return category
+
+def is_valid_category(category):
+    return category in ("sweet", "savoury")
 
 
 def recipe_search(recipes):
-
+    
     while True:
         
-        ingredient = get_valid_ingredient()
-        category = get_valid_category()
+        INGREDIENT_PROMPT = "\nWhich ingredient would you like to search by? "
+        INGREDIENT_CORRECTION_PROMPT = "\nPlease enter a string.\n"
+        CATEGORY_PROMPT = "Would you like to make something sweet or savoury? "
+        CATEGORY_CORRECTION_PROMPT = "\nPlease answer with 'sweet' or 'savoury'.\n"
+
+        ingredient = get_valid(INGREDIENT_PROMPT, INGREDIENT_CORRECTION_PROMPT, is_valid_ingredient)
+        category = get_valid(CATEGORY_PROMPT, CATEGORY_CORRECTION_PROMPT, is_valid_category)
 
         suggestions = [f"{recipe['name']}: {recipe['url']}" for recipe in recipes
             if ingredient in recipe["ingredients"] and category in recipe["category"]]
@@ -48,5 +50,6 @@ def recipe_search(recipes):
                 return
             else:
                 print("\nPlease answer with y (yes) or n (no).\n")
+
 
 recipe_search(recipes)
