@@ -30,21 +30,18 @@ def recipe_search(recipes):
         
         ingredient = get_valid_ingredient()
         category = get_valid_category()
-        suggestions = "\n"
 
-        for recipe in recipes:
-            if ingredient in recipe["ingredients"] and category in recipe["category"]:
-                recipe_name = recipe["name"]
-                recipe_url = recipe["url"]
-                suggestions += f"{recipe_name}: {recipe_url}\n"
+        suggestions = [f"{recipe['name']}: {recipe['url']}" for recipe in recipes
+            if ingredient in recipe["ingredients"] and category in recipe["category"]]
 
-        if suggestions == "\n":
+        if not suggestions:
             print("\nYou have no recipes that match those criteria.\n")
         else:
-            print(f"\n{category.title()} recipes containing {ingredient}: \n{suggestions}")
+            print(f"\n{category.title()} recipes containing {ingredient}:\n")
+            print("\n".join(suggestions))
 
         while True:
-            new_search = input("Would you like to carry out another search? [y/n] ")
+            new_search = input("\nWould you like to carry out another search? [y/n] ")
             if new_search == 'y':
                 break
             elif new_search == 'n':
