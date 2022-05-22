@@ -38,10 +38,9 @@ def recipe_search(recipes):
         NEW_SEARCH_CORRECTION_PROMPT = "\nPlease answer with y (yes) or n (no).\n"
 
         new_search = get_valid(NEW_SEARCH_PROMPT, NEW_SEARCH_CORRECTION_PROMPT, lambda result : result in ("y", "n"))
-        
+
         if new_search == 'n':
             return
-
 
 
 recipe_search(recipes)
