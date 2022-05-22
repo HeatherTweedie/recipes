@@ -14,14 +14,14 @@ def get_valid_ingredient():
             return ingredient
 
 
-def get_valid_type():
+def get_valid_category():
 
     while True:
-        type = input("Would you like to make something sweet or savoury? ")
-        if type not in ("sweet", "savoury"):
+        category = input("Would you like to make something sweet or savoury? ")
+        if category not in ("sweet", "savoury"):
             print("\nPlease answer with 'sweet' or 'savoury'.\n")
         else:
-            return type
+            return category
 
 
 def recipe_search(recipes):
@@ -29,11 +29,11 @@ def recipe_search(recipes):
     while True:
         
         ingredient = get_valid_ingredient()
-        type = get_valid_type()
+        category = get_valid_category()
         suggestions = "\n"
 
         for recipe in recipes:
-            if ingredient in recipe["ingredients"] and type in recipe["type"]:
+            if ingredient in recipe["ingredients"] and category in recipe["category"]:
                 recipe_name = recipe["name"]
                 recipe_url = recipe["url"]
                 suggestions += f"{recipe_name}: {recipe_url}\n"
@@ -41,7 +41,7 @@ def recipe_search(recipes):
         if suggestions == "\n":
             print("\nYou have no recipes that match those criteria.\n")
         else:
-            print(f"\n{type.title()} recipes containing {ingredient}: \n{suggestions}")
+            print(f"\n{category.title()} recipes containing {ingredient}: \n{suggestions}")
 
         while True:
             new_search = input("Would you like to carry out another search? [y/n] ")
