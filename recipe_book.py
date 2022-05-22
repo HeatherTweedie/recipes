@@ -40,7 +40,7 @@ recipes = [
      "ingredients":["lentils", "ginger", "red curry paste", "sweet potato"],
      "url": "https://feelgoodfoodie.net/recipe/red-lentil-curry/"},
 
-    {"name": "Moroccan cousouc",
+    {"name": "Moroccan couscous",
      "type": "savoury",
      "ingredients":["pepper", "carrot", "courgette", "couscous", "chickpeas", "almonds", "fresh coriander"],
      "url": "https://www.cookingclassy.com/moroccan-couscous-roasted-vegetables-chick-peas-almonds/"},
