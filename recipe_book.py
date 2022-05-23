@@ -15,17 +15,27 @@ recipes = [
      "location": "http://q.geek.nz/recipes/apple_scotch.html"},
 
     {"name": "Ginger brownies",
-     "tags": ["sweet", "baking"],
+     "tags": ["sweet", "baking", "brownie"],
      "ingredients": ["ginger", "dark-chocolate", "cocoa-powder", "egg"],
      "location": "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"},
 
     {"name": "Oatmeal raisin cookies",
-     "tags": ["sweet", "baking"],
+     "tags": ["sweet", "baking", "cookie"],
      "ingredients": ["egg", "black treacle", "raisins", "oats", "walnuts"],
      "location": "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"},
+    
+    {"name": "Plain scones",
+     "tags": ["sweet", "baking", "scone"],
+     "ingredients": ["milk"],
+     "location": "Be-Ro Book p8"},
+
+    {"name": "Fruit scones",
+     "tags": ["sweet", "baking", "scone"],
+     "ingredients": ["milk", "egg", "sultanas"],
+     "location": "Be-Ro Book p8"},
 
     {"name": "Victoria scones",
-     "tags": ["sweet", "baking"],
+     "tags": ["sweet", "baking", "scone"],
      "ingredients": ["egg", "milk", "glace cherries"],
      "location": "Be-Ro Book p5"},
 
