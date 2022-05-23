@@ -16,26 +16,21 @@ def get_all(recipes, category):
     all_tags = set()
     for recipe in recipes:
         all_tags = all_tags.union(recipe[category])
-    return all_tags
+    return sorted(all_tags)
 
 def get_input(category):
-    all = sorted(get_all(recipes, category))
-    print(f"Available {category}: {all}")
-    user_input = input(f"Which {category} would you like to search by? ")
-    return set(user_input.split(", "))
+    while True:
+        all = get_all(recipes, category)
+        user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
+        if not user_input.issubset(all):
+            print(f"\nInvalid input. Available {category}: {all}")
+        else:
+            return user_input
 
 
 def recipe_search(recipes):
 
     while True:
-        
-        #INGREDIENT_PROMPT = "\nWhich ingredient would you like to search by? "
-        #INGREDIENT_CORRECTION_PROMPT = "\nPlease enter a string.\n"
-        #CATEGORY_PROMPT = "What tags would you like to search by? "
-        #CATEGORY_CORRECTION_PROMPT = "\nPlease enter at least one tag.\n"
-
-        #ingredient = get_valid(INGREDIENT_PROMPT, INGREDIENT_CORRECTION_PROMPT, lambda ingredient : ingredient)
-        #category = get_valid(CATEGORY_PROMPT, CATEGORY_CORRECTION_PROMPT, lambda category : category in ("sweet", "savoury"))
         
         ingredients = get_input("ingredients")
         tags = get_input("tags")
