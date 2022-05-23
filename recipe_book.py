@@ -19,6 +19,11 @@ recipes = [
      "ingredients": ["ginger", "dark-chocolate", "cocoa-powder", "egg"],
      "url": "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"},
 
+    {"name": "Oatmeal raisin cookies",
+     "category": "sweet",
+     "ingredients": ["egg", "black treacle", "raisins", "oats", "walnuts"],
+     "url": "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"},
+
 
     ########
     # SOUP #
@@ -33,6 +38,11 @@ recipes = [
      "category": "savoury",
      "ingredients": ["ginger", "carrot"],
      "url": "https://www.deliciousmagazine.co.uk/recipes/carrot-and-ginger-soup/"},
+
+
+    ########
+    # MAIN #
+    ########
 
     {"name": "Gnocchi alla norma",
      "category": "savoury",
@@ -53,11 +63,6 @@ recipes = [
      "category": "savoury",
      "ingredients": ["pepper", "carrot", "courgette", "couscous", "chickpeas", "almonds", "fresh coriander"],
      "url": "https://www.cookingclassy.com/moroccan-couscous-roasted-vegetables-chick-peas-almonds/"},
-
-    {"name": "Oatmeal raisin cookies",
-     "category": "sweet",
-     "ingredients": ["egg", "black treacle", "raisins", "oats", "walnuts"],
-     "url": "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"},
 
     {"name": "Thai green curry",
      "category": "savoury",
