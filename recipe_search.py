@@ -4,19 +4,12 @@
 from recipe_book import recipes
 
 
-def get_valid(prompt, correction_prompt, validator):
-    while True:
-        result = input(prompt)
-        if not validator(result):
-            print(correction_prompt)
-        else:
-            return result
-
 def get_all(recipes, category):
     all_tags = set()
     for recipe in recipes:
         all_tags = all_tags.union(recipe[category])
     return sorted(all_tags)
+
 
 def get_input(category):
     while True:
@@ -44,10 +37,12 @@ def recipe_search(recipes):
             print(f"\n{tags} recipes containing {ingredients}:\n")
             print("\n".join(suggestions))
 
-        NEW_SEARCH_PROMPT = "\nWould you like to carry out another search? [y/n] "
-        NEW_SEARCH_CORRECTION_PROMPT = "\nPlease answer with y (yes) or n (no).\n"
-
-        new_search = get_valid(NEW_SEARCH_PROMPT, NEW_SEARCH_CORRECTION_PROMPT, lambda result : result in ("y", "n"))
+        while True:
+            new_search = input("Would you like to carry out another search? [y/n] ")
+            if new_search not in ("y", "n"):
+                print("\nPlease answer with y (yes) or n (no).\n")
+            else:
+                break
 
         if new_search == 'n':
             return
