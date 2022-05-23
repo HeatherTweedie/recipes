@@ -17,23 +17,25 @@ def recipe_search(recipes):
 
     while True:
         
-        INGREDIENT_PROMPT = "\nWhich ingredient would you like to search by? "
-        INGREDIENT_CORRECTION_PROMPT = "\nPlease enter a string.\n"
+        #INGREDIENT_PROMPT = "\nWhich ingredient would you like to search by? "
+        #INGREDIENT_CORRECTION_PROMPT = "\nPlease enter a string.\n"
         #CATEGORY_PROMPT = "What tags would you like to search by? "
         #CATEGORY_CORRECTION_PROMPT = "\nPlease enter at least one tag.\n"
 
-        ingredient = get_valid(INGREDIENT_PROMPT, INGREDIENT_CORRECTION_PROMPT, lambda ingredient : ingredient)
+        #ingredient = get_valid(INGREDIENT_PROMPT, INGREDIENT_CORRECTION_PROMPT, lambda ingredient : ingredient)
         #category = get_valid(CATEGORY_PROMPT, CATEGORY_CORRECTION_PROMPT, lambda category : category in ("sweet", "savoury"))
+        ingredient_input = input("\nWhich ingredient would you like to search by? ")
+        ingredients = set(ingredient_input.split(", "))
         tags_input = input("What tags would you like to search by? ")
         tags = set(tags_input.split(", "))
 
         suggestions = [f"{recipe['name']}: {recipe['location']}" for recipe in recipes
-            if ingredient in recipe["ingredients"] and tags.issubset(recipe["tags"])]
+            if ingredients.issubset(recipe["ingredients"]) and tags.issubset(recipe["tags"])]
 
         if not suggestions:
             print("\nYou have no recipes that match those criteria.\n")
         else:
-            print(f"\n{tags} recipes containing {ingredient}:\n")
+            print(f"\n{tags} recipes containing {ingredients}:\n")
             print("\n".join(suggestions))
 
         NEW_SEARCH_PROMPT = "\nWould you like to carry out another search? [y/n] "
