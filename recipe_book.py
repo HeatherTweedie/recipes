@@ -24,6 +24,11 @@ recipes = [
      "ingredients": ["egg", "black treacle", "raisins", "oats", "walnuts"],
      "location": "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"},
 
+    {"name": "Victoria scones",
+     "tags": ["sweet", "baking"],
+     "ingredients": ["egg", "milk", "glace cherries"],
+     "location": "Be-Ro Book p5"},
+
 
     ########
     # SOUP #
