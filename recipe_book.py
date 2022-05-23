@@ -24,6 +24,11 @@ recipes = [
      "ingredients": ["golden syrup", "ground ginger", "brandy", "rum"],
      "location": "Be-Ro book p13"},
 
+    {"name": "Chocolate chip cookies",
+     "tags": ["sweet", "baking", "cookie"],
+     "ingredients": ["cocoa powder", "golden syrup", "chocolate chips", "milk"],
+     "location": "Be-Ro Book p16"},
+
     {"name": "Fruit scones",
      "tags": ["sweet", "baking", "scone"],
      "ingredients": ["milk", "egg", "sultanas"],
