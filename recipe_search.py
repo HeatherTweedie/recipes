@@ -6,10 +6,10 @@ from recipe_book import recipes
 
 def get_all(recipes, category):
     """Get all of a given available category from all recipes"""
-    all_tags = set()
+    all = set()
     for recipe in recipes:
-        all_tags = all_tags.union(recipe[category])
-    return sorted(all_tags)
+        all = all.union(recipe[category])
+    return sorted(all)
 
 
 def get_input(category):
