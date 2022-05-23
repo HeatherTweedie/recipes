@@ -18,14 +18,14 @@ def get_input(category):
         all = get_all(recipes, category)
         user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
         if not user_input.issubset(all):
-            print(f"\nInvalid input. Available {category}: {all}")
+            print(f"\nInvalid input. Please enter {category} seperated by ', '. Available {category}: {all}")
         else:
             return user_input
 
 
 def recipe_search(recipes):
     """Search a list of recipes for given criteria and return those that match"""
-    
+
     while True:
         
         ingredients = get_input("ingredients")
