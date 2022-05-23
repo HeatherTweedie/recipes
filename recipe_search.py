@@ -5,6 +5,7 @@ from recipe_book import recipes
 
 
 def get_all(recipes, category):
+    """Get all of a given available category from all recipes"""
     all_tags = set()
     for recipe in recipes:
         all_tags = all_tags.union(recipe[category])
@@ -12,6 +13,7 @@ def get_all(recipes, category):
 
 
 def get_input(category):
+    """Get input as set from user and validate"""
     while True:
         all = get_all(recipes, category)
         user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
@@ -22,7 +24,8 @@ def get_input(category):
 
 
 def recipe_search(recipes):
-
+    """Search a list of recipes for given criteria and return those that match"""
+    
     while True:
         
         ingredients = get_input("ingredients")
