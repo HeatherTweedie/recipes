@@ -12,6 +12,12 @@ def get_valid(prompt, correction_prompt, validator):
         else:
             return result
 
+def get_all(recipes, category):
+    all_tags = set()
+    for recipe in recipes:
+        all_tags = all_tags.union(recipe[category])
+    return all_tags
+
 
 def recipe_search(recipes):
 
@@ -24,8 +30,13 @@ def recipe_search(recipes):
 
         #ingredient = get_valid(INGREDIENT_PROMPT, INGREDIENT_CORRECTION_PROMPT, lambda ingredient : ingredient)
         #category = get_valid(CATEGORY_PROMPT, CATEGORY_CORRECTION_PROMPT, lambda category : category in ("sweet", "savoury"))
+        all_ingredients = sorted(get_all(recipes, "ingredients"))
+        print(f"Available ingredients: {all_ingredients}")
         ingredient_input = input("\nWhich ingredient would you like to search by? ")
         ingredients = set(ingredient_input.split(", "))
+
+        all_tags = sorted(get_all(recipes, "tags"))
+        print(f"Available tags: {all_tags}")
         tags_input = input("What tags would you like to search by? ")
         tags = set(tags_input.split(", "))
 
