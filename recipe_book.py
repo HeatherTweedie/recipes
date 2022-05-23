@@ -1,5 +1,9 @@
 recipes = [
 
+    #########
+    # SWEET #
+    #########
+
     {"name": "Apple crumble",
      "category": "sweet",
      "ingredients": ["apple", "cinnamon"],
@@ -10,6 +14,16 @@ recipes = [
      "ingredients": ["apple", "cinnamon", "egg", "walnuts", "oats"],
      "url": "http://q.geek.nz/recipes/apple_scotch.html"},
 
+    {"name": "Ginger brownies",
+     "category": "sweet",
+     "ingredients": ["ginger", "dark-chocolate", "cocoa-powder", "egg"],
+     "url": "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"},
+
+
+    ########
+    # SOUP #
+    ########
+
     {"name": "Carrot and coriander soup",
      "category": "savoury",
      "ingredients": ["carrot", "ground coriander", "fresh coriander"],
@@ -19,11 +33,6 @@ recipes = [
      "category": "savoury",
      "ingredients": ["ginger", "carrot"],
      "url": "https://www.deliciousmagazine.co.uk/recipes/carrot-and-ginger-soup/"},
-
-    {"name": "Ginger brownies",
-     "category": "sweet",
-     "ingredients": ["ginger", "dark-chocolate", "cocoa-powder", "egg"],
-     "url": "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"},
 
     {"name": "Gnocchi alla norma",
      "category": "savoury",
