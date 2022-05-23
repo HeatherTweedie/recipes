@@ -40,6 +40,21 @@ recipes = [
      "location": "Be-Ro Book p5"},
 
 
+    #########
+    # SIDES #
+    #########
+
+    {"name": "Cheese scones",
+     "tags": ["savoury", "baking", "scone"],
+     "ingredients": ["egg", "milk", "cheese", "mustard powder"],
+     "location": "Be-Ro Book p9"},
+
+    {"name": "Tomato and olive scones",
+     "tags": ["savoury", "baking", "scone"],
+     "ingredients": ["egg", "milk", "cheese", "mustard powder", "paprika", "olives", "sunblush tomatoes"],
+     "location": "Be-Ro Book p9"},
+
+
     ########
     # SOUP #
     ########
