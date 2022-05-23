@@ -14,10 +14,55 @@ recipes = [
      "ingredients": ["apple", "cinnamon", "egg", "walnuts", "oats"],
      "location": "http://q.geek.nz/recipes/apple_scotch.html"},
 
+    {"name": "Apricot and sunflower seed cookies",
+     "tags": ["sweet", "baking", "cookie"],
+     "ingredients": ["golden syrup", "sunflower seeds", "dried apricot", "oats"],
+     "location": "Be-Ro Book p16"},
+
+    {"name": "Brandy snaps",
+     "tags": ["sweet", "baking", "biscuit"],
+     "ingredients": ["golden syrup", "ground ginger", "brandy", "rum"],
+     "location": "Be-Ro book p13"},
+
+    {"name": "Fruit scones",
+     "tags": ["sweet", "baking", "scone"],
+     "ingredients": ["milk", "egg", "sultanas"],
+     "location": "Be-Ro Book p8"},
+
     {"name": "Ginger brownies",
      "tags": ["sweet", "baking", "brownie"],
      "ingredients": ["ginger", "dark-chocolate", "cocoa-powder", "egg"],
      "location": "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"},
+
+    {"name": "Ginger snaps",
+     "tags": ["sweet", "baking", "biscuits"],
+     "ingredients": ["ground ginger", "egg", "golden syrup"],
+     "location": "Be-Ro Book p14"},
+
+    {"name": "Gingerbread men",
+     "tags": ["sweet", "baking", "biscuits"],
+     "ingredients": ["ground ginger", "golden syrup"],
+     "location": "Be-Ro Book p15"},
+
+    {"name": "Griddle scones",
+     "tags": ["sweet", "baking", "scone"],
+     "ingredients": ["egg", "milk"],
+     "location": "Be-Ro Book p11"},
+
+    {"name": "Lemon and sultana dropped scones",
+     "tags": ["sweet", "baking", "scone"],
+     "ingredients": ["egg", "milk", "sultanas", "lemon"],
+     "location": "Be-Ro Book p12"},
+
+    {"name": "Melting moments",
+     "tags": ["sweet", "baking", "biscuits"],
+     "ingredients": ["oats", "egg", "vanilla essence", "dessicated coconut", "glace cherries"],
+     "location": "Be-Ro Book p15"},
+
+    {"name": "Oatmeal biscuits",
+     "tags": ["sweet", "savoury", "baking", "biscuit"],
+     "ingredients": ["oatmeal", "milk"],
+     "location": "Be-Ro Book p13"},
 
     {"name": "Oatmeal raisin cookies",
      "tags": ["sweet", "baking", "cookie"],
@@ -29,25 +74,35 @@ recipes = [
      "ingredients": ["milk"],
      "location": "Be-Ro Book p8"},
 
-    {"name": "Fruit scones",
-     "tags": ["sweet", "baking", "scone"],
-     "ingredients": ["milk", "egg", "sultanas"],
-     "location": "Be-Ro Book p8"},
+    {"name": "Rich iced biscuits",
+     "tags": ["sweet", "baking", "biscuits"],
+     "ingredients": ["milk", "egg", "vanilla essence"],
+     "location": "Be-Ro Book p14"},
 
     {"name": "Victoria scones",
      "tags": ["sweet", "baking", "scone"],
      "ingredients": ["egg", "milk", "glace cherries"],
      "location": "Be-Ro Book p5"},
 
+    {"name": "Welsh griddle cakes",
+     "tags": ["sweet", "baking"],
+     "ingredients": ["egg", "milk", "sultanas", "currants"],
+     "location": "Be-Ro Book p12"},
 
-    #########
-    # SIDES #
-    #########
+
+    ########
+    # SIDE #
+    ########
 
     {"name": "Cheese scones",
      "tags": ["savoury", "baking", "scone"],
      "ingredients": ["egg", "milk", "cheese", "mustard powder"],
      "location": "Be-Ro Book p9"},
+
+    {"name": "Potato scones",
+     "tags": ["savoury", "baking", "scone"],
+     "ingredients": ["potato"],
+     "location": "Be-Ro Book p11"},
 
     {"name": "Tomato and olive scones",
      "tags": ["savoury", "baking", "scone"],
@@ -73,6 +128,11 @@ recipes = [
     ########
     # MAIN #
     ########
+
+    {"name": "Beef and ale cobbler",
+     "tags": ["savoury", "main"],
+     "ingredients": ["steak", "carrot", "swede", "ale", "mustard powder", "milk", "fresh thyme"],
+     "location": "Be-Ro book p10"},
 
     {"name": "Gnocchi alla norma",
      "tags": ["savoury", "main"],
