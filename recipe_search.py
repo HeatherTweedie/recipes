@@ -18,7 +18,7 @@ def get_input(category):
         all = get_all(recipes, category)
         user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
         if not user_input.issubset(all):
-            print(f"\nInvalid input. Please enter {category} seperated by ', '. Available {category}: {all}")
+            print(f"\nInvalid input. Please enter {category} separated by ', '. Available {category}: {all}")
         else:
             return user_input
 
