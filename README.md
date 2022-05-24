@@ -8,14 +8,33 @@ Recipe data are in YAML format in [recipes](recipes.yaml).
 A recipe must have a name, at least one tag, at least one ingredient, and a location. For example:
 
 ```yaml
-- name: Apple crumble
-    tags:
-      - sweet
-      - pudding
-    ingredients:
-      - apple
-      - cinnamon
-    location: "https://www.bbc.co.uk/food/recipes/applecrumble_2971"
+- name: Chocolate chip cookies
+  tags:
+    - sweet
+    - baking
+    - cookie
+  ingredients:
+    - cocoa powder 
+    - golden syrup 
+    - chocolate chips 
+    - milk
+  location: Be-Ro Book p16
+    
+- name: Thai green curry
+  tags:
+    - savoury
+    - main
+    - curry
+  ingredients:
+    - thai green curry paste
+    - chilli
+    - butternut squash
+    - pepper
+    - coconut milk
+    - mangetout
+    - baby corn
+    - fresh coriander
+  location: "https://www.bbcgoodfood.com/recipes/vegetarian-thai-green-curry"},
 ```
 
 - `name`: First word must be uppercase, the rest lowercase. No more than eight words.
