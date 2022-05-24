@@ -1,165 +1,202 @@
-  - name: Apple crumble
-    tags:
-      - sweet
-      - pudding
-    ingredients:
-      - apple
-      - cinnamon
-    location: "https://www.bbc.co.uk/food/recipes/applecrumble_2971"
+- name: Apple crumble
+  tags:
+    - sweet
+    - pudding
+  ingredients:
+    - apple
+    - cinnamon
+  location: "https://www.bbc.co.uk/food/recipes/applecrumble_2971"
 
+- name: Apple scotch
+  tags: 
+    - sweet
+    - pudding
+  ingredients: 
+    - apple
+    - cinnamon
+    - egg
+    - walnuts
+    - oats
+  location: "http://q.geek.nz/recipes/apple_scotch.html"
 
-  - name: Apple scotch
-    tags: 
-      - sweet
-      - pudding
-    ingredients: 
-      - apple
-      - cinnamon
-      - egg
-      - walnuts
-      - oats
-    location: "http://q.geek.nz/recipes/apple_scotch.html"
+- name: Apricot and sunflower seed cookies
+  tags:
+    - sweet
+    - baking
+    - cookie
+  ingredients:
+    - golden syrup
+    - sunflower seeds
+    - dried apricot
+    - oats
+  location: Be-Ro Book p16
 
+- name: Brandy snaps
+  tags:
+    - sweet
+    - baking
+    - biscuit
+  ingredients:
+    - golden syrup
+    - ground ginger
+    - brandy
+    - rum
+  location: Be-Ro Book p13
 
-  - name: Apricot and sunflower seed cookies
-    tags:
-      - sweet
-      - baking
-      - cookie
-    ingredients:
-      - golden syrup
-      - sunflower seeds
-      - dried apricot
-      - oats
-    location: Be-Ro Book p16
+- name: Chocolate chip cookies
+  tags:
+    - sweet
+    - baking
+    - cookie
+  ingredients:
+    - cocoa powder
+    - golden syrup
+    - chocolate chips
+    - milk
+  location: Be-Ro Book p16
 
+- name: Fruit scones
+  tags:
+    - sweet
+    - baking
+    - scone
+  ingredients:
+    - milk
+    - egg
+    - sultanas
+  location: Be-Ro Book p8
+  
+- name: Ginger brownies
+  tags: 
+    - sweet
+    - baking
+    - brownie
+  ingredients:
+    - ginger
+    - dark chocolate
+    - cocoa powder
+    - egg
+  location: "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"
 
-  - name: Brandy snaps
-    tags:
-      - sweet
-      - baking
-      - biscuit
-    ingredients:
-      - golden syrup
-      - ground ginger
-      - brandy
-      - rum
-    location: Be-Ro Book p13
-
-
-  - name: Chocolate chip cookies
-    tags:
-      - sweet
-      - baking
-      - cookie
-    ingredients:
-      -cocoa powder
-      - golden syrup
-      - chocolate chips
-      - milk
-    location: Be-Ro Book p16
-
-
-  - name: Fruit scones
-    tags:
-      - sweet
-      - baking
-      - scone
-    ingredients: milk egg sultanas
-    location: Be-Ro Book p8
-
-
-  - name: Ginger brownies
-    tags: 
-      - sweet
-      - baking
-      - brownie
-    ingredients:
-      - ginger
-      - dark chocolate
-      - cocoa powder
-      - egg
-    location: "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"
-
-
-  - name: Ginger snaps
-    tags: 
-      - sweet
-      - baking
-      - biscuits
-    ingredients:
-      - ground ginger
-      - egg
-      - golden syrup
-    location: Be-Ro Book p14
-
-
-  - name: Gingerbread men
-    tags: 
+- name: Ginger snaps
+  tags: 
     - sweet
     - baking
     - biscuits
-    ingredients:
+  ingredients:
     - ground ginger
+    - egg
     - golden syrup
-    location: Be-Ro Book p15
+  location: Be-Ro Book p14
 
+- name: Gingerbread men
+  tags: 
+  - sweet
+  - baking
+  - biscuits
+  ingredients:
+  - ground ginger
+  - golden syrup
+  location: Be-Ro Book p15
 
-  - name: Griddle scones
-    tags:
-      - sweet
-      - baking
-      - scone
-    ingredients:
-      - egg
-      - milk
-    location: Be-Ro Book p11
+- name: Griddle scones
+  tags:
+    - sweet
+    - baking
+    - scone
+  ingredients:
+    - egg
+    - milk
+  location: Be-Ro Book p11
 
+- name: Lemon and sultana dropped scones
+  tags: 
+    - sweet
+    - baking
+    - scone
+  ingredients: 
+    - egg
+    - milk
+    - sultanas
+    - lemon
+  location: Be-Ro Book p12
 
-  - name: Lemon and sultana dropped scones",
-    tags: 
-      - sweet
-      - baking
-      - scone
-    ingredients: 
-      - egg
-      - milk
-      - sultanas
-      - lemon
-    location: Be-Ro Book p12
+- name: Melting moments
+  tags:
+    - sweet
+    - baking
+    - biscuits
+  ingredients:
+    - oats
+    - egg
+    - vanilla essence
+    - dessicated coconut
+    - glace cherries
+  location: Be-Ro Book p15
 
+- name: Oatmeal biscuits
+  tags:
+    - sweet
+    - savoury
+    - baking
+    - biscuit
+  ingredients:
+    - oatmeal
+    - milk
+  location: Be-Ro Book p13
 
-  #- name: Melting moments",
-  #  tags: sweet", "baking", "biscuits"],
-  # ingredients: ["oats", "egg", "vanilla essence", "dessicated coconut", "glace cherries"],
-  #  location: "Be-Ro Book p15"},
-
-  #- name: Oatmeal biscuits",
-  #  tags: sweet", "savoury", "baking", "biscuit"],
-  # ingredients: ["oatmeal", "milk"],
-  #  location: "Be-Ro Book p13"},
-
-  #- name: Oatmeal raisin cookies",
-  #  tags: sweet", "baking", "cookie"],
-  # ingredients: ["egg", "black treacle", "raisins", "oats", "walnuts"],
-  #  location: "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"},
+- name: Oatmeal raisin cookies
+  tags:
+    - sweet
+    - baking
+    - cookie
+  ingredients: 
+    - egg
+    - black treacle
+    - raisins
+    - oats
+    - walnuts
+  location: "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"
     
-  #- name: Plain scones",
-  #  tags: sweet", "baking", "scone"],
-  # ingredients: ["milk"],
-  #  location: "Be-Ro Book p8"},
+- name: Plain scones
+  tags:
+    - sweet
+    - baking
+    - scone
+  ingredients:
+    - milk
+  location: Be-Ro Book p8
 
-  #- name: Rich iced biscuits",
-  #  tags: sweet", "baking", "biscuits"],
-  # ingredients: ["milk", "egg", "vanilla essence"],
-  #  location: "Be-Ro Book p14"},
+- name: Rich iced biscuits
+  tags:
+    - sweet
+    - baking
+    - biscuits
+  ingredients:
+    - milk
+    - egg
+    - vanilla essence
+  location: Be-Ro Book p14
 
-  #- name: Victoria scones",
-  #  tags: sweet", "baking", "scone"],
-  # ingredients: ["egg", "milk", "glace cherries"],
-  #  location: "Be-Ro Book p5"},
+- name: Victoria scones
+  tags:
+    - sweet
+    - baking
+    - scone
+  ingredients:
+    - egg
+    - milk
+    - glace cherries
+  location: Be-Ro Book p5
 
-  #- name: Welsh griddle cakes",
-  #  tags: sweet", "baking"],
-  # ingredients: ["egg", "milk", "sultanas", "currants"],
-  #  location: "Be-Ro Book p12"},
+- name: Welsh griddle cakes
+  tags:
+    - sweet
+    - baking
+  ingredients:
+    - egg
+    - milk
+    - sultanas
+    - currants
+  location: Be-Ro Book p12
+  
