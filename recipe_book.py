@@ -141,12 +141,12 @@ recipes = [
 
     {"name": "Gnocchi alla norma",
      "tags": ["savoury", "main"],
-     "ingredients": ["gnocchi", "aubergine", "basil"],
+     "ingredients": ["gnocchi", "aubergine", "fresh basil"],
      "location": "https://www.bbcgoodfood.com/recipes/gnocchi-alla-norma"},
 
     {"name": "Gnocchi tomato bake",
      "tags": ["savoury", "main"],
-     "ingredients": ["gnocchi", "pepper", "basil", "mozzerella"],
+     "ingredients": ["gnocchi", "pepper", "fresh basil", "mozzerella"],
      "location": "https://www.bbcgoodfood.com/recipes/gnocchi-tomato-bake"},
 
     {"name": "Lentil and sweet potato curry",
