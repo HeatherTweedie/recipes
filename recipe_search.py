@@ -14,10 +14,11 @@ express or implied. See the License for the specific language governing permissi
 limitations under the License.
 """
 
-from recipe_book import recipes
-#import yaml
 
-#recipes = yaml.safe_load(recipes.yaml)
+import yaml
+with open("recipes.yaml", "r") as stream:
+    recipes = yaml.safe_load(stream)
+
 
 def get_all(recipes, category):
     """Get all of a given available category from all recipes"""
@@ -56,7 +57,7 @@ def recipe_search(recipes):
             print("\n".join(suggestions))
 
         while True:
-            new_search = input("Would you like to carry out another search? [y/n] ")
+            new_search = input("\nWould you like to carry out another search? [y/n] ")
             if new_search not in ("y", "n"):
                 print("\nPlease answer with y (yes) or n (no).\n")
             else:
