@@ -2,7 +2,7 @@
 This repository contains the code and data for searching a database of recipes for ingredients and tags inputed by the user. 
 
 ## Format
-Recipe data are in YAML format in [recipes](recipes.yaml).
+Recipe data are in YAML format in [recipes](recipes.yaml). Recipes are in alphabetical order under commented section headers.
 
 ### Required fields:
 A recipe must have a name, at least one tag, at least one ingredient, and a location. For example:
