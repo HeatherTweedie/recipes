@@ -6,6 +6,7 @@
     - apple
     - cinnamon
   location: "https://www.bbc.co.uk/food/recipes/applecrumble_2971"
+  scrapable: True
 
 - name: Apple scotch
   tags: 
@@ -18,6 +19,7 @@
     - walnuts
     - oats
   location: "http://q.geek.nz/recipes/apple_scotch.html"
+  scrapable: True
 
 - name: Apricot and sunflower seed cookies
   tags:
@@ -30,6 +32,7 @@
     - dried apricot
     - oats
   location: Be-Ro Book p16
+  scrapable: False
 
 - name: Brandy snaps
   tags:
@@ -42,6 +45,7 @@
     - brandy
     - rum
   location: Be-Ro Book p13
+  scrapable: False
 
 - name: Chocolate chip cookies
   tags:
@@ -54,6 +58,7 @@
     - chocolate chips
     - milk
   location: Be-Ro Book p16
+  scrapable: False
 
 - name: Fruit scones
   tags:
@@ -65,6 +70,7 @@
     - egg
     - sultanas
   location: Be-Ro Book p8
+  scrapable: False
   
 - name: Ginger brownies
   tags: 
@@ -77,6 +83,7 @@
     - cocoa powder
     - egg
   location: "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"
+  scrapable: False
 
 - name: Ginger snaps
   tags: 
@@ -88,6 +95,7 @@
     - egg
     - golden syrup
   location: Be-Ro Book p14
+  scrapable: False
 
 - name: Gingerbread men
   tags: 
@@ -98,6 +106,7 @@
   - ground ginger
   - golden syrup
   location: Be-Ro Book p15
+  scrapable: False
 
 - name: Griddle scones
   tags:
@@ -108,6 +117,7 @@
     - egg
     - milk
   location: Be-Ro Book p11
+  scrapable: False
 
 - name: Lemon and sultana dropped scones
   tags: 
@@ -120,6 +130,7 @@
     - sultanas
     - lemon
   location: Be-Ro Book p12
+  scrapable: False
 
 - name: Melting moments
   tags:
@@ -133,6 +144,7 @@
     - dessicated coconut
     - glace cherries
   location: Be-Ro Book p15
+  scrapable: False
 
 - name: Oatmeal biscuits
   tags:
@@ -144,6 +156,7 @@
     - oatmeal
     - milk
   location: Be-Ro Book p13
+  scrapable: False
 
 - name: Oatmeal raisin cookies
   tags:
@@ -157,6 +170,7 @@
     - oats
     - walnuts
   location: "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"
+  scrapable: True
     
 - name: Plain scones
   tags:
@@ -166,6 +180,7 @@
   ingredients:
     - milk
   location: Be-Ro Book p8
+  scrapable: False
 
 - name: Rich iced biscuits
   tags:
@@ -177,6 +192,7 @@
     - egg
     - vanilla essence
   location: Be-Ro Book p14
+  scrapable: False
 
 - name: Victoria scones
   tags:
@@ -188,6 +204,7 @@
     - milk
     - glace cherries
   location: Be-Ro Book p5
+  scrapable: False
 
 - name: Welsh griddle cakes
   tags:
@@ -199,4 +216,5 @@
     - sultanas
     - currants
   location: Be-Ro Book p12
+  scrapable: False
   
