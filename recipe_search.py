@@ -41,6 +41,7 @@ def get_input(category):
 
 
 def format_recipe(recipe_to_format):
+    """Scrape recipe from website (if available) and print to terminal"""
     scraper = scrape_me(recipe_to_format["location"])
     print(f"\n--{scraper.title()}--")
     print("\nIngredients:\n")
@@ -51,6 +52,7 @@ def format_recipe(recipe_to_format):
 
 
 def get_valid_y_n(prompt, correction):
+    """Get y/n input and check validity"""
     while True:
         user_input = input(prompt)
         if user_input not in ("y", "n"):
