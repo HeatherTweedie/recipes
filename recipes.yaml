@@ -1,12 +1,6 @@
-- name: Apple crumble
-  tags:
-    - sweet
-    - pudding
-  ingredients:
-    - apple
-    - cinnamon
-  location: "https://www.bbc.co.uk/food/recipes/applecrumble_2971"
-  scrapable: True
+##############################################################################################
+# SWEET ######################################################################################
+##############################################################################################
 
 - name: Apple scotch
   tags: 
@@ -19,7 +13,7 @@
     - walnuts
     - oats
   location: "http://q.geek.nz/recipes/apple_scotch.html"
-  scrapable: True
+  scrapable: False
 
 - name: Apricot and sunflower seed cookies
   tags:
@@ -218,3 +212,70 @@
   location: Be-Ro Book p12
   scrapable: False
   
+
+##############################################################################################
+# SOUP #######################################################################################
+##############################################################################################
+
+- name: Carrot and coriander soup
+  tags:
+    - savoury
+    - soup
+  ingredients:
+    - carrot
+    - ground coriander
+    - fresh coriander
+  location: "https://www.deliciousmagazine.co.uk/recipes/carrot-and-ginger-soup/"
+  scrapable: False
+
+- name: Carrot and ginger soup
+  tags: 
+    - savoury
+    - soup
+  ingredients:
+    - ginger
+    - carrot
+  location: "https://www.deliciousmagazine.co.uk/recipes/carrot-and-ginger-soup/"
+  scrapable: False
+
+
+##############################################################################################
+# SIDES ######################################################################################
+##############################################################################################
+
+- name: Cheese scones
+  tags: 
+    - savoury
+    - baking
+    - scone
+  ingredients:
+    - egg
+    - milk
+    - cheese
+    - mustard powder
+  location: Be-Ro Book p9
+  scrapable: False
+
+- name: Potato scones
+  tags:
+    - savoury
+    - baking
+    - scone
+  ingredients:
+    - potato
+  location: Be-Ro Book p11
+
+- name: Tomato and olive scones
+  tags:
+     -savoury
+     - baking
+     - scone
+  ingredients:
+    - egg
+    - milk
+    - cheese
+    - mustard powder
+    - paprika
+    - olives
+    - sunblush tomatoes
+  location: Be-Ro Book p9
