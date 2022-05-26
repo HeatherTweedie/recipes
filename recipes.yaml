@@ -264,6 +264,7 @@
   ingredients:
     - potato
   location: Be-Ro Book p11
+  scrapable: False
 
 - name: Tomato and olive scones
   tags:
@@ -279,3 +280,116 @@
     - olives
     - sunblush tomatoes
   location: Be-Ro Book p9
+  scrapable: False
+
+
+##############################################################################################
+# MAINS ######################################################################################
+##############################################################################################
+
+- name: Beef and ale cobbler
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - steak
+    - carrot
+    - swede
+    - ale
+    - mustard powder
+    - milk
+    - fresh thyme
+  location: Be-Ro book p10
+  scrapable: False
+
+- name: Gnocchi alla norma
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - gnocchi
+    - aubergine
+    - fresh basil
+  location: "https://www.bbcgoodfood.com/recipes/gnocchi-alla-norma"
+  scrapable: True
+
+- name: Gnocchi tomato bake
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - gnocchi
+    - pepper
+    - fresh basil
+    - mozzerella
+  location: "https://www.bbcgoodfood.com/recipes/gnocchi-tomato-bake"
+  scrapable: True
+
+- name: Lentil and sweet potato curry
+  tags: 
+    - savoury
+    - main
+    - curry
+  ingredients:
+    - lentils
+    - ginger
+    - red curry paste
+    - sweet potato
+  location: "https://feelgoodfoodie.net/recipe/red-lentil-curry/"
+  scrapable: False
+
+- name: Moroccan couscous
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - pepper
+    - carrot
+    - courgette
+    - couscous
+    - chickpeas
+    - almonds
+    - fresh coriander
+  location: "https://www.cookingclassy.com/moroccan-couscous-roasted-vegetables-chick-peas-almonds/"
+  scrapable: False
+
+- name: Thai green curry
+  tags: 
+    - savoury
+    - main
+    - curry
+  ingredients:
+    - thai green curry paste
+    - chilli
+    - butternut squash
+    - pepper
+    - coconut milk
+    - mangetout
+    - baby corn
+    - fresh coriander
+  location: "https://www.bbcgoodfood.com/recipes/vegetarian-thai-green-curry"
+  scrapable: True
+
+- name: Tomato and halloumi bake
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - aubergine
+    - courgette
+  location: "https://www.tamingtwins.com/grilled-halloumi-cheese-bake-recipe/"
+  scrapable: False
+
+- name: Vegetable chili
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - pepper
+    - carrot
+    - celery
+    - beans
+    - fresh coriander
+  location: "https://cookieandkate.com/vegetarian-chili-recipe/"
+  scrapable: True
