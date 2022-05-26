@@ -81,7 +81,7 @@ def recipe_search(recipes):
             print("\n".join((f"{suggestions.index(recipe) + 1}. {recipe['name']}: {recipe['location']} (scrapable: {recipe['scrapable']})") for recipe in suggestions))
 
         while True:
-            view_recipe = get_valid_y_n(("\nWould you like to view a recipe? "),
+            view_recipe = get_valid_y_n(("\nWould you like to view a recipe? [y/n] "),
                                         ("\nPlease answer with 'y' (yes) or 'n' (no)."))
             if view_recipe == "y":
                 recipe_index = int(input("Which recipe would you like to view? ")) - 1
