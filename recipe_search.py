@@ -34,6 +34,8 @@ def get_input(category):
     while True:
         all = get_all(recipes, category)
         user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
+        if user_input == "none":
+            return user_input
         if not user_input.issubset(all):
             print(f"\nInvalid input. Please enter {category} separated by ', '. Available {category}: {all}")
         else:
@@ -71,10 +73,21 @@ def recipe_search(recipes):
 
         suggestions = []
         count = 0
-        for recipe in recipes:
-            if ingredients.issubset(recipe["ingredients"]) and tags.issubset(recipe["tags"]):
-                count += 1
-                suggestions.append(recipe)
+        if tags == "none":
+            for recipe in recipes:
+                if ingredients.issubset(recipe["ingredients"]):
+                    count += 1
+                    suggestions.append(recipe)
+        elif ingredients == "none":
+            for recipe in recipes:
+                if tags.issubset(recipe["tags"]):
+                    count += 1
+                    suggestions.append(recipe)
+        else:
+            for recipe in recipes:
+                if ingredients.issubset(recipe["ingredients"]) and tags.issubset(recipe["tags"]):
+                    count += 1
+                    suggestions.append(recipe)
 
         if not suggestions:
             print("\nYou have no recipes that match those criteria.\n")
