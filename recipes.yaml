@@ -54,6 +54,17 @@
   location: Be-Ro Book p16
   scrapable: False
 
+- name: Chocolate sandwich biscuits
+  tags:
+    - sweet
+    - baking
+    - biscuit
+  ingredients:
+    - cocoa powder
+    - milk
+  location: Be-Ro Book p17
+  scrapable: False
+
 - name: Fruit scones
   tags:
     - sweet
