@@ -101,4 +101,5 @@ def recipe_search(recipes):
             return
 
 
-recipe_search(recipes)
+if __name__ == "__main__":
+    recipe_search(recipes)
