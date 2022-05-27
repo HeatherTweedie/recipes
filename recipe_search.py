@@ -33,9 +33,10 @@ def get_input(category):
     """Get input from user and validate"""
     while True:
         all = get_all(recipes, category)
+        all_string = ", ".join(all)
         user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
         if not user_input.issubset(all):
-            print(f"\nInvalid input. Please enter {category} separated by ', '. Available {category}: {all}")
+            print(f"\nInvalid input. Please enter {category} separated by ', '. Available {category}: {all_string}.")
         else:
             return user_input
 
