@@ -80,7 +80,9 @@ def recipe_search(recipes):
         if not suggestions:
             print("\nYou have no recipes that match those criteria.\n")
         else:
-            print(f"\n{tags} recipes containing {ingredients}:\n")
+            tags_string = ", ".join(tags)
+            ingredients_string = ", ".join(ingredients)
+            print(f"\n{tags_string} recipes containing {ingredients_string}:\n")
             print("\n".join((f"{suggestions.index(recipe) + 1}. {recipe['name']}: {recipe['location']} (scrapable: {recipe['scrapable']})") for recipe in suggestions))
 
         while True:
