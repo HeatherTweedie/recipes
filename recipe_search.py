@@ -35,6 +35,9 @@ def get_input(category):
         all = get_all(recipes, category)
         all_string = ", ".join(all)
         user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
+        if "none" in user_input:
+            user_input = "none"
+            return user_input
         if not user_input.issubset(all):
             print(f"\nInvalid input. Please enter {category} separated by ', '. Available {category}: {all_string}.")
         else:
@@ -44,9 +47,9 @@ def get_input(category):
 def format_recipe(recipe_to_format):
     """Scrape recipe from website (if available) and print to terminal"""
     scraper = scrape_me(recipe_to_format["location"])
+    ingredients = "\n-".join(scraper.ingredients())
     print(f"\n--{scraper.title()}--")
     print("\nIngredients:\n")
-    ingredients = "\n-".join(scraper.ingredients())
     print(f"-{ingredients}")
     print("\nInstructions:\n")
     print(scraper.instructions())
@@ -72,17 +75,31 @@ def recipe_search(recipes):
 
         suggestions = []
         count = 0
-        for recipe in recipes:
-            if ingredients.issubset(recipe["ingredients"]) and tags.issubset(recipe["tags"]):
-                count += 1
-                suggestions.append(recipe)
+        tags_string = ", ".join(tags)
+        ingredients_string = ", ".join(ingredients)
+        if tags == "none":
+            for recipe in recipes:
+                if ingredients.issubset(recipe["ingredients"]):
+                    count += 1
+                    suggestions.append(recipe)
+                    message = f"\nAll recipes containing {ingredients_string}:\n"
+        elif ingredients == "none":
+            for recipe in recipes:
+                if tags.issubset(recipe["tags"]):
+                    count += 1
+                    suggestions.append(recipe)
+                    message = f"\nAll {tags_string} recipes:\n"
+        else:
+            for recipe in recipes:
+                if ingredients.issubset(recipe["ingredients"]) and tags.issubset(recipe["tags"]):
+                    count += 1
+                    suggestions.append(recipe)
+                    message = f"\n{tags_string} recipes containing {ingredients_string}:\n"
 
         if not suggestions:
             print("\nYou have no recipes that match those criteria.\n")
         else:
-            tags_string = ", ".join(tags)
-            ingredients_string = ", ".join(ingredients)
-            print(f"\n{tags_string} recipes containing {ingredients_string}:\n")
+            print(message)
             print("\n".join((f"{suggestions.index(recipe) + 1}. {recipe['name']}: {recipe['location']} (scrapable: {recipe['scrapable']})") for recipe in suggestions))
 
         while True:

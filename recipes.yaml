@@ -2,6 +2,16 @@
 # SWEET ######################################################################################
 ##############################################################################################
 
+- name: Apple crumble
+  tags: 
+    - sweet
+    - pudding
+  ingredients: 
+    - apple
+    - oats
+  location: "https://www.bbcgoodfood.com/recipes/best-apple-crumble"
+  scrapable: True
+
 - name: Apple scotch
   tags: 
     - sweet
