@@ -74,24 +74,26 @@ def recipe_search(recipes):
 
         suggestions = []
         count = 0
+        tags_string = ", ".join(tags)
+        ingredients_string = ", ".join(ingredients)
         if tags == "none":
             for recipe in recipes:
                 if ingredients.issubset(recipe["ingredients"]):
                     count += 1
                     suggestions.append(recipe)
-                    message = f"All recipes containing {ingredients}:\n"
+                    message = f"\nAll recipes containing {ingredients_string}:\n"
         elif ingredients == "none":
             for recipe in recipes:
                 if tags.issubset(recipe["tags"]):
                     count += 1
                     suggestions.append(recipe)
-                    message = f"\nAll {tags} recipes:\n"
+                    message = f"\nAll {tags_string} recipes:\n"
         else:
             for recipe in recipes:
                 if ingredients.issubset(recipe["ingredients"]) and tags.issubset(recipe["tags"]):
                     count += 1
                     suggestions.append(recipe)
-                    message = f"\n{tags} recipes containing {ingredients}:\n"
+                    message = f"\n{tags_string} recipes containing {ingredients_string}:\n"
 
         if not suggestions:
             print("\nYou have no recipes that match those criteria.\n")
