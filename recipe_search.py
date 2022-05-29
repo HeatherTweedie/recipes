@@ -35,6 +35,7 @@ def get_input(category):
         all = get_all(recipes, category)
         user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
         if "none" in user_input:
+            user_input = "none"
             return user_input
         if not user_input.issubset(all):
             print(f"\nInvalid input. Please enter {category} separated by ', '. Available {category}: {all}")
