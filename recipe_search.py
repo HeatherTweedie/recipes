@@ -34,7 +34,7 @@ def get_input(category):
     while True:
         all = get_all(recipes, category)
         user_input = set((input(f"\nWhich {category} would you like to search by? ")).split(", "))
-        if user_input == "none":
+        if "none" in user_input:
             return user_input
         if not user_input.issubset(all):
             print(f"\nInvalid input. Please enter {category} separated by ', '. Available {category}: {all}")
@@ -45,9 +45,9 @@ def get_input(category):
 def format_recipe(recipe_to_format):
     """Scrape recipe from website (if available) and print to terminal"""
     scraper = scrape_me(recipe_to_format["location"])
+    ingredients = "\n-".join(scraper.ingredients())
     print(f"\n--{scraper.title()}--")
     print("\nIngredients:\n")
-    ingredients = "\n-".join(scraper.ingredients())
     print(f"-{ingredients}")
     print("\nInstructions:\n")
     print(scraper.instructions())
