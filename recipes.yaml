@@ -323,6 +323,17 @@
   location: Be-Ro book p10
   scrapable: False
 
+- name: Ginger egg fried rice
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - ginger
+    - egg
+    - soy sauce
+  location: "https://www.bbcgoodfood.com/recipes/fried-rice-egg-ginger"
+  scrapable: True
+
 - name: Gnocchi alla norma
   tags: 
     - savoury
