@@ -120,6 +120,6 @@ def recipe_search(recipes):
 
 
 if __name__ == "__main__":
-    with open("recipes.yaml", "r") as stream:
+    with open("recipes.yaml", "r", encoding="utf-8") as stream:
         recipes = yaml.safe_load(stream)
     recipe_search(recipes)
