@@ -17,8 +17,6 @@ limitations under the License.
 
 from recipe_scrapers import scrape_me
 import yaml
-with open("recipes.yaml", "r") as stream:
-    recipes = yaml.safe_load(stream)
 
 
 def get_all(recipes, category):
@@ -122,4 +120,6 @@ def recipe_search(recipes):
 
 
 if __name__ == "__main__":
+    with open("recipes.yaml", "r") as stream:
+        recipes = yaml.safe_load(stream)
     recipe_search(recipes)
