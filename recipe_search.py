@@ -104,7 +104,7 @@ def recipe_search(recipes):
             if view_recipe == "y":
                 recipe_index = int(input("Which recipe would you like to view? ")) - 1
                 recipe_to_view = suggestions[recipe_index]
-                if recipe_to_view["scrapable"] == True:
+                if recipe_to_view["scrapable"]:
                     print(format_recipe(recipe_to_view))
                 else:
                     print("That recipe is not available to view.")
