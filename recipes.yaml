@@ -93,11 +93,24 @@
     - baking
     - brownie
   ingredients:
-    - ginger
+    - fresh ginger
     - dark chocolate
     - cocoa powder
     - egg
   location: "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"
+  scrapable: False
+
+- name: Ginger cake
+  tags: 
+    - sweet
+    - baking
+  ingredients:
+    - fresh ginger
+    - molasses
+    - ground cinnamon
+    - ground cloves
+    - egg
+  location: "https://www.epicurious.com/recipes/food/views/fresh-ginger-cake-103238"
   scrapable: False
 
 - name: Ginger snaps
