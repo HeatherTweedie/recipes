@@ -75,6 +75,19 @@
   location: Be-Ro Book p17
   scrapable: False
 
+- name: Dorset apple cake
+  tags: 
+    - sweet
+    - pudding
+  ingredients: 
+    - apple
+    - ground nutmeg
+    - ground cinnamon
+    - egg
+    - vanilla extract
+  location: "https://www.bbc.co.uk/food/recipes/dorset_apple_cake_37804"
+  scrapable: True
+
 - name: Fruit scones
   tags:
     - sweet
