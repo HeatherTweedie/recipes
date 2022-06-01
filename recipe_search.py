@@ -1,24 +1,20 @@
+# Copyright 2022 Heather Tweedie
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
+# except in compliance with the License. You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software distributed under the
+# License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+# express or implied. See the License for the specific language governing permissions and
+# limitations under the License.
+
 """Search a list of recipes for given criteria and return those that match"""
-
-"""
-Copyright 2022 Heather Tweedie
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
-except in compliance with the License. You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the
-License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
-express or implied. See the License for the specific language governing permissions and
-limitations under the License.
-"""
 
 
 from recipe_scrapers import scrape_me
 import yaml
-with open("recipes.yaml", "r") as stream:
-    recipes = yaml.safe_load(stream)
 
 
 def get_all(recipes, category):
@@ -108,7 +104,7 @@ def recipe_search(recipes):
             if view_recipe == "y":
                 recipe_index = int(input("Which recipe would you like to view? ")) - 1
                 recipe_to_view = suggestions[recipe_index]
-                if recipe_to_view["scrapable"] == True:
+                if recipe_to_view["scrapable"]:
                     print(format_recipe(recipe_to_view))
                 else:
                     print("That recipe is not available to view.")
@@ -122,4 +118,6 @@ def recipe_search(recipes):
 
 
 if __name__ == "__main__":
+    with open("recipes.yaml", "r", encoding="utf-8") as stream:
+        recipes = yaml.safe_load(stream)
     recipe_search(recipes)
