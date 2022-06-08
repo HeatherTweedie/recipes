@@ -82,18 +82,24 @@ def recipe_search(recipes):
         count = 0
         tags_string = ", ".join(tags)
         ingredients_string = ", ".join(ingredients)
-        if tags == "none":
+
+        if tags == "none" and ingredients == "none":
             for recipe in recipes:
-                if ingredients.issubset(recipe["ingredients"]):
-                    count += 1
-                    suggestions.append(recipe)
-                    message = f"\nAll recipes containing {ingredients_string}:\n"
+                count += 1
+                suggestions.append(recipe)
+                message = f"\nAll recipes:\n"
         elif ingredients == "none":
             for recipe in recipes:
                 if tags.issubset(recipe["tags"]):
                     count += 1
                     suggestions.append(recipe)
                     message = f"\nAll {tags_string} recipes:\n"
+        elif tags == "none":
+            for recipe in recipes:
+                if ingredients.issubset(recipe["ingredients"]):
+                    count += 1
+                    suggestions.append(recipe)
+                    message = f"\nAll recipes containing {ingredients_string}:\n"
         else:
             for recipe in recipes:
                 if ingredients.issubset(recipe["ingredients"]) and tags.issubset(recipe["tags"]):
@@ -105,7 +111,7 @@ def recipe_search(recipes):
             print("\nYou have no recipes that match those criteria.\n")
         else:
             print(message)
-            print("\n".join((f"{suggestions.index(recipe) + 1}. {recipe['name']}: {recipe['location']} (scrapable: {recipe['scrapable']})") for recipe in suggestions))
+            print("\n".join((f"{suggestions.index(recipe) + 1}. {recipe['name']}: {recipe['location']}") for recipe in suggestions))
 
         while True:
             view_recipe = get_valid_y_n(("\nWould you like to view a recipe? [y/n] "),
