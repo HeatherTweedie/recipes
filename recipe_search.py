@@ -40,17 +40,6 @@ def get_input(category):
             return user_input
 
 
-def format_recipe(recipe_to_format):
-    """Scrape recipe from website (if available) and print to terminal"""
-    scraper = scrape_me(recipe_to_format["location"])
-    ingredients = "\n-".join(scraper.ingredients())
-    print(f"\n--{scraper.title()}--")
-    print("\nIngredients:\n")
-    print(f"-{ingredients}")
-    print("\nInstructions:\n")
-    print(scraper.instructions())
-
-
 def get_valid_y_n(prompt, correction):
     """Get y/n input and check validity"""
     while True:
@@ -59,7 +48,27 @@ def get_valid_y_n(prompt, correction):
             print(correction)
         else:
             return user_input
-        
+
+
+def get_recipe(suggestions):
+    recipe_index = int(input("Which recipe would you like to view? ")) - 1
+    recipe_to_view = suggestions[recipe_index]
+    try:
+        print(format_recipe(recipe_to_view))
+    except:
+        print("That recipe is not available to view.")
+
+
+def format_recipe(recipe_to_format):
+    """Scrape recipe from website (if available) and print to terminal"""
+    scraper = scrape_me(recipe_to_format["location"], wild_mode = True)
+    ingredients = "\n-".join(scraper.ingredients())
+    print(f"\n--{scraper.title()}--")
+    print("\nIngredients:\n")
+    print(f"-{ingredients}")
+    print("\nInstructions:\n")
+    print(scraper.instructions())
+
 
 def recipe_search(recipes):
     """Search a list of recipes for given criteria and return those that match"""
@@ -102,12 +111,7 @@ def recipe_search(recipes):
             view_recipe = get_valid_y_n(("\nWould you like to view a recipe? [y/n] "),
                                         ("\nPlease answer with 'y' (yes) or 'n' (no)."))
             if view_recipe == "y":
-                recipe_index = int(input("Which recipe would you like to view? ")) - 1
-                recipe_to_view = suggestions[recipe_index]
-                if recipe_to_view["scrapable"]:
-                    print(format_recipe(recipe_to_view))
-                else:
-                    print("That recipe is not available to view.")
+                get_recipe(suggestions)
             else:
                 break
 

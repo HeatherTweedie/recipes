@@ -10,7 +10,6 @@
     - apple
     - oats
   location: "https://www.bbcgoodfood.com/recipes/best-apple-crumble"
-  scrapable: True
 
 - name: Apple scotch
   tags: 
@@ -23,7 +22,6 @@
     - walnuts
     - oats
   location: "http://q.geek.nz/recipes/apple_scotch.html"
-  scrapable: False
 
 - name: Apricot and sunflower seed cookies
   tags:
@@ -36,7 +34,6 @@
     - dried apricot
     - oats
   location: Be-Ro Book p16
-  scrapable: False
 
 - name: Brandy snaps
   tags:
@@ -49,7 +46,6 @@
     - brandy
     - rum
   location: Be-Ro Book p13
-  scrapable: False
 
 - name: Chocolate chip cookies
   tags:
@@ -62,7 +58,6 @@
     - chocolate chips
     - milk
   location: Be-Ro Book p16
-  scrapable: False
 
 - name: Chocolate sandwich biscuits
   tags:
@@ -73,7 +68,6 @@
     - cocoa powder
     - milk
   location: Be-Ro Book p17
-  scrapable: False
 
 - name: Dorset apple cake
   tags: 
@@ -86,7 +80,6 @@
     - egg
     - vanilla extract
   location: "https://www.bbc.co.uk/food/recipes/dorset_apple_cake_37804"
-  scrapable: True
 
 - name: Fruit scones
   tags:
@@ -98,7 +91,6 @@
     - egg
     - sultanas
   location: Be-Ro Book p8
-  scrapable: False
   
 - name: Ginger brownies
   tags: 
@@ -111,7 +103,6 @@
     - cocoa powder
     - egg
   location: "https://www.foodandspice.com/2010/07/chocolate-brownies-with-fresh-ginger.html"
-  scrapable: False
 
 - name: Ginger cake
   tags: 
@@ -124,7 +115,6 @@
     - ground cloves
     - egg
   location: "https://www.epicurious.com/recipes/food/views/fresh-ginger-cake-103238"
-  scrapable: False
 
 - name: Ginger snaps
   tags: 
@@ -136,7 +126,6 @@
     - egg
     - golden syrup
   location: Be-Ro Book p14
-  scrapable: False
 
 - name: Gingerbread men
   tags: 
@@ -147,7 +136,6 @@
   - ground ginger
   - golden syrup
   location: Be-Ro Book p15
-  scrapable: False
 
 - name: Griddle scones
   tags:
@@ -158,7 +146,6 @@
     - egg
     - milk
   location: Be-Ro Book p11
-  scrapable: False
 
 - name: Lemon and sultana dropped scones
   tags: 
@@ -171,7 +158,6 @@
     - sultanas
     - lemon
   location: Be-Ro Book p12
-  scrapable: False
 
 - name: Melting moments
   tags:
@@ -185,7 +171,6 @@
     - dessicated coconut
     - glace cherries
   location: Be-Ro Book p15
-  scrapable: False
 
 - name: Oatmeal biscuits
   tags:
@@ -197,7 +182,6 @@
     - oatmeal
     - milk
   location: Be-Ro Book p13
-  scrapable: False
 
 - name: Oatmeal raisin cookies
   tags:
@@ -211,7 +195,6 @@
     - oats
     - walnuts
   location: "https://sallysbakingaddiction.com/soft-chewy-oatmeal-raisin-cookies/"
-  scrapable: True
     
 - name: Plain scones
   tags:
@@ -221,7 +204,6 @@
   ingredients:
     - milk
   location: Be-Ro Book p8
-  scrapable: False
 
 - name: Rich iced biscuits
   tags:
@@ -233,7 +215,6 @@
     - egg
     - vanilla essence
   location: Be-Ro Book p14
-  scrapable: False
 
 - name: Victoria scones
   tags:
@@ -245,7 +226,6 @@
     - milk
     - glace cherries
   location: Be-Ro Book p5
-  scrapable: False
 
 - name: Welsh griddle cakes
   tags:
@@ -257,7 +237,6 @@
     - sultanas
     - currants
   location: Be-Ro Book p12
-  scrapable: False
   
 
 ##############################################################################################
@@ -273,7 +252,6 @@
     - ground coriander
     - fresh coriander
   location: "https://www.deliciousmagazine.co.uk/recipes/carrot-and-ginger-soup/"
-  scrapable: False
 
 - name: Carrot and ginger soup
   tags: 
@@ -283,7 +261,6 @@
     - ginger
     - carrot
   location: "https://www.deliciousmagazine.co.uk/recipes/carrot-and-ginger-soup/"
-  scrapable: False
 
 
 ##############################################################################################
@@ -301,7 +278,6 @@
     - cheese
     - mustard powder
   location: Be-Ro Book p9
-  scrapable: False
 
 - name: Potato scones
   tags:
@@ -311,7 +287,6 @@
   ingredients:
     - potato
   location: Be-Ro Book p11
-  scrapable: False
 
 - name: Tomato and olive scones
   tags:
@@ -327,7 +302,6 @@
     - olives
     - sunblush tomatoes
   location: Be-Ro Book p9
-  scrapable: False
 
 
 ##############################################################################################
@@ -347,7 +321,6 @@
     - milk
     - fresh thyme
   location: Be-Ro book p10
-  scrapable: False
 
 - name: Ginger egg fried rice
   tags: 
@@ -358,7 +331,6 @@
     - egg
     - soy sauce
   location: "https://www.bbcgoodfood.com/recipes/fried-rice-egg-ginger"
-  scrapable: True
 
 - name: Gnocchi alla norma
   tags: 
@@ -369,7 +341,6 @@
     - aubergine
     - fresh basil
   location: "https://www.bbcgoodfood.com/recipes/gnocchi-alla-norma"
-  scrapable: True
 
 - name: Gnocchi tomato bake
   tags: 
@@ -381,7 +352,6 @@
     - fresh basil
     - mozzerella
   location: "https://www.bbcgoodfood.com/recipes/gnocchi-tomato-bake"
-  scrapable: True
 
 - name: Lentil and sweet potato curry
   tags: 
@@ -394,7 +364,6 @@
     - red curry paste
     - sweet potato
   location: "https://feelgoodfoodie.net/recipe/red-lentil-curry/"
-  scrapable: False
 
 - name: Moroccan couscous
   tags: 
@@ -409,7 +378,6 @@
     - almonds
     - fresh coriander
   location: "https://www.cookingclassy.com/moroccan-couscous-roasted-vegetables-chick-peas-almonds/"
-  scrapable: False
 
 - name: Thai green curry
   tags: 
@@ -426,7 +394,6 @@
     - baby corn
     - fresh coriander
   location: "https://www.bbcgoodfood.com/recipes/vegetarian-thai-green-curry"
-  scrapable: True
 
 - name: Tomato and halloumi bake
   tags: 
@@ -437,7 +404,6 @@
     - aubergine
     - courgette
   location: "https://www.tamingtwins.com/grilled-halloumi-cheese-bake-recipe/"
-  scrapable: False
 
 - name: Vegetable chili
   tags: 
@@ -450,4 +416,3 @@
     - beans
     - fresh coriander
   location: "https://cookieandkate.com/vegetarian-chili-recipe/"
-  scrapable: True
