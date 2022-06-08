@@ -34,7 +34,7 @@ A recipe must have a name, at least one tag, at least one ingredient, and a loca
     - mangetout
     - baby corn
     - fresh coriander
-  location: "https://www.bbcgoodfood.com/recipes/vegetarian-thai-green-curry"},
+  location: "https://www.bbcgoodfood.com/recipes/vegetarian-thai-green-curry"
 ```
 
 - `name`: First word must be uppercase, the rest lowercase. No more than eight words.
