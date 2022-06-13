@@ -262,6 +262,16 @@
     - carrot
   location: "https://www.deliciousmagazine.co.uk/recipes/carrot-and-ginger-soup/"
 
+- name: Sweet potato and carrot soup
+  tags: 
+    - savoury
+    - soup
+  ingredients:
+    - sweet potato
+    - carrot
+    - creme fraiche
+  location: "https://www.bbcgoodfood.com/recipes/roasted-sweet-potato-carrot-soup"
+
 
 ##############################################################################################
 # SIDES ######################################################################################
@@ -352,6 +362,17 @@
     - fresh basil
     - mozzerella
   location: "https://www.bbcgoodfood.com/recipes/gnocchi-tomato-bake"
+
+- name: Leek, tomato and creme fraiche gnocchi
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - gnocchi
+    - leek
+    - creme fraiche
+    - parmesan
+  location: "https://nuush.co.uk/recipes/gnocchi-with-leeks-and-tomato-creme-fraiche-sauce/"
 
 - name: Lentil and sweet potato curry
   tags: 
