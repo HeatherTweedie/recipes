@@ -81,6 +81,18 @@
     - vanilla extract
   location: "https://www.bbc.co.uk/food/recipes/dorset_apple_cake_37804"
 
+- name: Fruit and oat cookies
+  tags:
+    - sweet
+    - baking
+    - cookie
+  ingredients:
+    - oats
+    - dried fruit
+    - maple syrup
+    - sultanas
+  location: "https://realfood.tesco.com/recipes/super-fruit-oat-cookies.html"
+
 - name: Fruit scones
   tags:
     - sweet
