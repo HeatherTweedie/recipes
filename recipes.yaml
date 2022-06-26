@@ -11,6 +11,16 @@
     - oats
   location: "https://www.bbcgoodfood.com/recipes/best-apple-crumble"
 
+- name: Apple and rhubarb crumble
+  tags: 
+    - sweet
+    - pudding
+  ingredients: 
+    - apple
+    - rhubarb
+    - fresh ginger
+  location: "https://beyondsweetandsavory.com/apple-rhubarb-ginger-crumble/"
+
 - name: Apple scotch
   tags: 
     - sweet
