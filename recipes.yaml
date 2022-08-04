@@ -79,6 +79,18 @@
     - milk
   location: Be-Ro Book p17
 
+- name: Courgette loaf cake
+  tags:
+    - sweet
+    - baking
+    - loaf
+  ingredients:
+    - courgette
+    - egg
+    - walnuts
+    - sultanas
+  location: "https://www.bbcgoodfood.com/recipes/courgette-loaf-cake"
+
 - name: Dorset apple cake
   tags: 
     - sweet
@@ -450,6 +462,20 @@
     - cauliflower
     - soy sauce
   location: "https://www.bonappetit.com/recipe/sticky-and-spicy-baked-cauliflower"
+
+- name: Sweetcorn fritters with tomato and halloumi
+  tags: 
+    - savoury
+    - main
+    - salad
+  ingredients:
+    - sweetcorn
+    - tomato
+    - halloumi
+    - rocket
+    - egg
+    - milk
+  location: "https://www.olivemagazine.com/recipes/family/sweetcorn-fritters-with-tomatoes-and-halloumi/"
 
 - name: Thai green curry
   tags: 
