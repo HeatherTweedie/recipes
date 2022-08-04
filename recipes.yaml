@@ -385,6 +385,26 @@
     - mozzerella
   location: "https://www.bbcgoodfood.com/recipes/gnocchi-tomato-bake"
 
+- name: Halloumi Hash
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - potato
+  location: "https://www.bbcgoodfood.com/recipes/halloumi-hash"
+
+- name: Halloumi Fajitas
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - pepper
+    - wraps
+    - honey
+  location: "https://www.tamingtwins.com/halloumi-fajitas-recipe/"
+
 - name: Leek, tomato and creme fraiche gnocchi
   tags: 
     - savoury
@@ -421,6 +441,15 @@
     - almonds
     - fresh coriander
   location: "https://www.cookingclassy.com/moroccan-couscous-roasted-vegetables-chick-peas-almonds/"
+
+- name: Sticky baked cauliflower
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - cauliflower
+    - soy sauce
+  location: "https://www.bonappetit.com/recipe/sticky-and-spicy-baked-cauliflower"
 
 - name: Thai green curry
   tags: 
