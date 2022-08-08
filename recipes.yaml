@@ -45,6 +45,15 @@
     - oats
   location: Be-Ro Book p16
 
+- name: Blueberry compotte
+  tags:
+    - sweet
+    - pudding
+  ingredients:
+    - blueberries
+    - lemon juice
+  location: "https://veggiedesserts.com/blueberry-compote/"
+
 - name: Brandy snaps
   tags:
     - sweet
@@ -366,6 +375,19 @@
 # MAINS ######################################################################################
 ##############################################################################################
 
+- name: Bean and Halloumi Stew
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - pepper
+    - red pesto
+    - ground coriander
+    - beans
+    - halloumi
+    - fresh coriander
+  location: "https://www.bbcgoodfood.com/recipes/bean-halloumi-stew"
+
 - name: Beef and ale cobbler
   tags: 
     - savoury
@@ -379,6 +401,19 @@
     - milk
     - fresh thyme
   location: Be-Ro book p10
+
+- name: Cauliflower and halloumi rice
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - cauliflower
+    - spinach
+    - fresh ginger
+    - ground turmeric
+    - curry powder
+  location: "https://www.bbcgoodfood.com/recipes/spicy-cauliflower-halloumi-rice"
 
 - name: Chorizo and pepper pasta salad
   tags: 
@@ -427,6 +462,35 @@
     - mozzerella
   location: "https://www.bbcgoodfood.com/recipes/gnocchi-tomato-bake"
 
+- name: Halloumi and Pineapple Burgers
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - pineapple
+    - red cabbage
+    - carrot
+    - coriander
+    - lime
+    - chipotle paste
+  location: "https://www.bbcgoodfood.com/recipes/spiced-halloumi-pineapple-burger-zingy-slaw"
+
+- name: Halloumi couscous salad
+  tags: 
+    - savoury
+    - main
+    - salad
+  ingredients:
+    - halloumi
+    - couscous
+    - chickpeas
+    - courgette
+    - tomato
+    - lime juice
+    - fresh mint
+  location: "https://www.bbcgoodfood.com/recipes/summer-couscous-salad"
+
 - name: Halloumi Hash
   tags: 
     - savoury
@@ -446,6 +510,39 @@
     - wraps
     - honey
   location: "https://www.tamingtwins.com/halloumi-fajitas-recipe/"
+
+- name: Halloumi salad
+  tags: 
+    - savoury
+    - main
+    - salad
+  ingredients:
+    - halloumi
+    - spinach
+    - tomato
+    - sourdough
+    - parmesan
+    - salad leaves
+    - sundried tomato
+    - lemon juice
+    - red chilli
+  location: "https://realfood.tesco.com/recipes/grilled-halloumi-cheese-salad.html"
+
+- name: Halloumi with broccoli tabbouleh and honey-harissa dressing
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - broccoli
+    - fresh parsley
+    - fresh mint
+    - tomato
+    - lemon
+    - harissa
+    - honey
+    - flaked almonds
+  location: "https://www.bbcgoodfood.com/recipes/halloumi-broccoli-tabbouleh-honey-harissa-dressing"
 
 - name: Leek, tomato and creme fraiche gnocchi
   tags: 
@@ -497,6 +594,20 @@
     - rice
     - frozen peas
   location: "https://veganhuggs.com/pineapple-fried-rice-vegan-gf/"
+
+- name: Sesame, halloumi and courgette fritters
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - sesame seeds
+    - courgette
+    - cornflour
+    - egg
+    - honey
+    - lemon
+  location: "https://www.bbcgoodfood.com/recipes/sesame-halloumi-courgette-fritters-chilli-honey-drizzle"
 
 - name: Sticky baked cauliflower
   tags: 
