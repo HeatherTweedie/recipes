@@ -206,6 +206,20 @@
     - glace cherries
   location: Be-Ro Book p15
 
+- name: Muesli Slice
+  tags:
+    - sweet
+    - baking
+    - traybake
+  ingredients:
+    - oats
+    - golden syrup
+    - egg
+    - dessicated coconut
+    - bran flakes
+    - sultanas
+  location: "https://q.geek.nz/recipes/muesli_slice.html"
+
 - name: Oatmeal biscuits
   tags:
     - sweet
@@ -366,6 +380,22 @@
     - fresh thyme
   location: Be-Ro book p10
 
+- name: Chorizo and pepper pasta salad
+  tags: 
+    - savoury
+    - main
+    - salad
+  ingredients:
+    - pasta
+    - chorizo
+    - peppers
+    - honey
+    - capers
+    - olives
+    - spinach
+    - basil
+  location: Display book
+
 - name: Ginger egg fried rice
   tags: 
     - savoury
@@ -453,6 +483,20 @@
     - almonds
     - fresh coriander
   location: "https://www.cookingclassy.com/moroccan-couscous-roasted-vegetables-chick-peas-almonds/"
+
+- name: Pineapple Fried Rice
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - fresh ginger
+    - carrot
+    - pineapple
+    - soy sauce
+    - tamari
+    - rice
+    - frozen peas
+  location: "https://veganhuggs.com/pineapple-fried-rice-vegan-gf/"
 
 - name: Sticky baked cauliflower
   tags: 
