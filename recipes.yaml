@@ -257,6 +257,19 @@
   tags:
     - sweet
     - baking
+    - traybake
+  ingredients:
+    - egg
+    - lime
+    - ground almond
+    - blueberries
+    - raspberries
+  location: "https://www.bbcgoodfood.com/recipes/raspberry-blueberry-lime-drizzle-cake"
+
+- name: Raspberry and blueberry lime drizzle cake
+  tags:
+    - sweet
+    - baking
     - scone
   ingredients:
     - milk
@@ -462,6 +475,20 @@
     - mozzerella
   location: "https://www.bbcgoodfood.com/recipes/gnocchi-tomato-bake"
 
+- name: Grilled halloumi salad
+  tags: 
+    - savoury
+    - main
+    - salad
+  ingredients:
+    - halloumi
+    - cucumber
+    - tomato
+    - salad leaves
+    - fresh mint
+    - lemon juice
+  location: "https://thishealthytable.com/blog/grilled-halloumi-salad/"
+
 - name: Halloumi and Pineapple Burgers
   tags: 
     - savoury
@@ -475,6 +502,18 @@
     - lime
     - chipotle paste
   location: "https://www.bbcgoodfood.com/recipes/spiced-halloumi-pineapple-burger-zingy-slaw"
+
+- name: Halloumi, broccoli, pepper and pine nut salad
+  tags: 
+    - savoury
+    - main
+    - salad
+  ingredients:
+    - halloumi
+    - broccoli
+    - pepper
+    - pine nuts
+  location: "https://www.olivemagazine.com/recipes/quick-and-easy/broccoli-salad-with-peppers-pine-nuts-and-halloumi/"
 
 - name: Halloumi couscous salad
   tags: 
@@ -491,15 +530,6 @@
     - fresh mint
   location: "https://www.bbcgoodfood.com/recipes/summer-couscous-salad"
 
-- name: Halloumi Hash
-  tags: 
-    - savoury
-    - main
-  ingredients:
-    - halloumi
-    - potato
-  location: "https://www.bbcgoodfood.com/recipes/halloumi-hash"
-
 - name: Halloumi Fajitas
   tags: 
     - savoury
@@ -510,6 +540,31 @@
     - wraps
     - honey
   location: "https://www.tamingtwins.com/halloumi-fajitas-recipe/"
+
+- name: Halloumi flatbreads
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - pumpkin seeds
+    - cumin seeds
+    - red cabbage
+    - peppers
+    - flatbreads
+    - wraps
+    - hummus
+    - rocket
+  location: "https://www.bbcgoodfood.com/recipes/halloumi-flatbreads"
+
+- name: Halloumi Hash
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - halloumi
+    - potato
+  location: "https://www.bbcgoodfood.com/recipes/halloumi-hash"
 
 - name: Halloumi salad
   tags: 
@@ -566,6 +621,18 @@
     - red curry paste
     - sweet potato
   location: "https://feelgoodfoodie.net/recipe/red-lentil-curry/"
+
+- name: Mediterranean Halloumi Salad
+  tags: 
+    - savoury
+    - main
+    - salad
+  ingredients:
+    - tomato
+    - pepper
+    - halloumi
+    - fresh basil
+  location: "https://www.deliciousmagazine.co.uk/recipes/mediterranean-halloumi-salad/"
 
 - name: Moroccan couscous
   tags: 
@@ -669,3 +736,16 @@
     - beans
     - fresh coriander
   location: "https://cookieandkate.com/vegetarian-chili-recipe/"
+
+- name: Zaalouk with crispy halloumi
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - aubergine
+    - tomato
+    - ground cumin
+    - paprika
+    - lemon
+    - halloumi
+  location: "https://www.olivemagazine.com/recipes/chef-recipes/zaalouk-with-crispy-halloumi/"
