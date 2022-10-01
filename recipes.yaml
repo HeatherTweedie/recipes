@@ -515,6 +515,23 @@
     - pine nuts
   location: "https://www.olivemagazine.com/recipes/quick-and-easy/broccoli-salad-with-peppers-pine-nuts-and-halloumi/"
 
+- name: Halloumi chickpea bake
+  tags: 
+    - savoury
+    - main
+    - one-pan
+  ingredients:
+    - harrissa paste
+    - ground cumin
+    - smoked paprika
+    - ground coriander
+    - cinnamon
+    - pepper
+    - aubergine
+    - chickpeas
+    - halloumi
+  location: "https://www.taste.com.au/recipes/one-tray-haloumi-chickpea-bake-recipe/mwewp2x7"
+
 - name: Halloumi couscous salad
   tags: 
     - savoury
@@ -661,6 +678,17 @@
     - rice
     - frozen peas
   location: "https://veganhuggs.com/pineapple-fried-rice-vegan-gf/"
+
+- name: Salmon stir-fry
+  tags: 
+    - savoury
+    - main
+    - quick
+  ingredients:
+    - salmon
+    - noodles
+    - carrot
+  location: "https://www.taste.com.au/recipes/speedy-salmon-noodle-stir-fry/1m8g4f4z"
 
 - name: Sesame, halloumi and courgette fritters
   tags: 
