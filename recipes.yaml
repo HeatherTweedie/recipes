@@ -11,6 +11,17 @@
     - oats
   location: "https://www.bbcgoodfood.com/recipes/best-apple-crumble"
 
+- name: Apple crumble granola
+  tags: 
+    - sweet
+    - breakfast
+    - snack
+  ingredients: 
+    - apple
+    - oats
+    - honey
+  location: "https://cookingonabootstrap.com/2014/01/28/apple-crumble-granola/"
+
 - name: Apple and rhubarb crumble
   tags: 
     - sweet
@@ -20,6 +31,20 @@
     - rhubarb
     - fresh ginger
   location: "https://beyondsweetandsavory.com/apple-rhubarb-ginger-crumble/"
+
+- name: Apple, pear and almond oatmeal bake
+  tags: 
+    - sweet
+    - breakfast
+  ingredients: 
+    - apple
+    - pear
+    - almonds
+    - oats
+    - eggs
+    - honey
+    - milk
+  location: "https://thehealthyspoon.ie/apple-pear-and-almond-oatmeal-bake/"
 
 - name: Apple scotch
   tags: 
@@ -415,6 +440,18 @@
     - fresh thyme
   location: Be-Ro book p10
 
+- name: Beef and bean stew
+  tags: 
+    - savoury
+    - main
+  ingredients:
+    - stewed steak
+    - black beans
+    - kidney beans
+    - carrot
+    - celery
+  location: "https://cookingonabootstrap.com/2022/08/14/cuban-inspired-beef-red-black-bean-stew-95p-15-minute-one-pot-meals-jack-monroe/"
+
 - name: Cauliflower and halloumi rice
   tags: 
     - savoury
@@ -427,6 +464,38 @@
     - ground turmeric
     - curry powder
   location: "https://www.bbcgoodfood.com/recipes/spicy-cauliflower-halloumi-rice"
+
+- name: Chicken and bean enchiladas
+  tags: 
+    - savoury
+    - main
+    - mexican
+  ingredients:
+    - chicken
+    - onion
+    - pepper
+    - chipotle paste
+    - black beans
+    - kidney beans
+    - fresh coriander
+    - wraps
+    - cheese
+  location: "https://www.bbcgoodfood.com/recipes/chicken-bean-enchiladas"
+
+- name: Chicken fajita sweet potatoes
+  tags: 
+    - savoury
+    - main
+    - mexican
+  ingredients:
+    - chicken
+    - onion
+    - sweet potato
+    - peppers
+    - cheese
+    - fresh coriander
+    - lime
+  location: "https://realfood.tesco.com/recipes/chicken-fajita-sweet-potatoes.html"
 
 - name: Chorizo and pepper pasta salad
   tags: 
@@ -639,6 +708,20 @@
     - sweet potato
   location: "https://feelgoodfoodie.net/recipe/red-lentil-curry/"
 
+- name: Lentil bolognese
+  tags: 
+    - savoury
+    - main
+    - curry
+    - one-pan
+  ingredients:
+    - lentils
+    - tomato paste
+    - walnuts
+    - carrot
+    - pepper
+  location: "https://rainbowplantlife.com/10-ingredient-vegan-red-lentil-bolognese/"
+
 - name: Mediterranean Halloumi Salad
   tags: 
     - savoury
@@ -650,6 +733,19 @@
     - halloumi
     - fresh basil
   location: "https://www.deliciousmagazine.co.uk/recipes/mediterranean-halloumi-salad/"
+
+- name: Mexican black beans
+  tags: 
+    - savoury
+    - main
+    - mexican
+    - one-pan
+  ingredients:
+    - tomato
+    - black beans
+    - lime
+    - fresh coriander
+  location: "https://rainbowplantlife.com/mexican-black-beans/"
 
 - name: Moroccan couscous
   tags: 
@@ -712,6 +808,20 @@
     - cauliflower
     - soy sauce
   location: "https://www.bonappetit.com/recipe/sticky-and-spicy-baked-cauliflower"
+
+- name: Sweet potato and pepper enchiladas
+  tags: 
+    - savoury
+    - main
+    - mexican
+  ingredients:
+    - sweet potato
+    - pepper
+    - wraps
+    - onion
+    - fresh coriander
+    - cheese
+  location: "https://realfood.tesco.com/recipes/sweet-potato-and-pepper-enchiladas.html"
 
 - name: Sweetcorn fritters with tomato and halloumi
   tags: 
