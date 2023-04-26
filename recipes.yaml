@@ -113,6 +113,42 @@
     - milk
   location: Be-Ro Book p17
 
+- name: Cinnamon apple cake
+  tags:
+    - baking
+    - sweet
+    - cake
+  ingredients:
+    - apple
+    - cinnamon
+    - yoghurt
+    - egg
+  location: "https://www.sweetestmenu.com/cinnamon-apple-cake//"
+
+- name: Cinnamon apple crumble cake
+  tags:
+    - baking
+    - sweet
+    - cake
+  ingredients:
+    - apple
+    - cinnamon
+    - egg
+  location: "https://www.tamingtwins.com/apple-cake/"
+
+- name: Cinnamon swirl apple cake
+  tags:
+    - baking
+    - sweet
+    - loaf
+  ingredients:
+    - apple
+    - cinnamon
+    - milk
+    - egg
+  location: "https://fitwafflekitchen.com/cinnamon-apple-cake/"
+
+
 - name: Courgette loaf cake
   tags:
     - sweet
