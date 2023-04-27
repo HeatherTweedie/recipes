@@ -70,6 +70,17 @@
     - oats
   location: Be-Ro Book p16
 
+- name: Banana cake with chocolate icing
+  tags:
+    - sweet
+    - baking
+    - cake
+  ingredients:
+    - banana
+    - cocoa powder
+    - egg
+  location: "https://www.chelsea.co.nz/browse-recipes/banana-cake-chocolate-icing/"
+
 - name: Blueberry compotte
   tags:
     - sweet
@@ -147,7 +158,6 @@
     - milk
     - egg
   location: "https://fitwafflekitchen.com/cinnamon-apple-cake/"
-
 
 - name: Courgette loaf cake
   tags:
@@ -392,6 +402,13 @@
     - ginger
     - carrot
   location: "https://www.deliciousmagazine.co.uk/recipes/carrot-and-ginger-soup/"
+
+- name: Sopa Tarasca with sweetcorn fritters
+  tags:
+    - soup
+    - savoury
+  ingredients:
+  location: "https://pinchofyum.com/sopa-tarasca-pinto-bean-soup-with-jalapeno-corn-fritters"
 
 - name: Sweet potato and carrot soup
   tags: 
@@ -811,6 +828,18 @@
     - frozen peas
   location: "https://veganhuggs.com/pineapple-fried-rice-vegan-gf/"
 
+- name: Red pepper cashew pasta with cauliflower
+  tags:
+    - main
+    - savoury
+    - pasta
+  ingredients:
+    - cashews
+    - cauliflower
+    - tomato pasta sauce
+    - roasted red peppers
+  location: "https://pinchofyum.com/red-pepper-cashew-pasta"
+
 - name: Salmon stir-fry
   tags: 
     - savoury
@@ -858,6 +887,14 @@
     - fresh coriander
     - cheese
   location: "https://realfood.tesco.com/recipes/sweet-potato-and-pepper-enchiladas.html"
+
+- name: Sweet potato gnocchi
+  tags:
+    - savoury
+    - main
+  ingredients:
+    - sweet potato
+  location: "https://foodwithfeeling.com/3-ingredient-sweet-potato-gnocchi/"
 
 - name: Sweetcorn fritters with tomato and halloumi
   tags: 
