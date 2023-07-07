@@ -28,7 +28,7 @@ public class SQLRecipeDB implements RecipeInterface {
     @Override
     public void addRecipe(String name, String tags, String ingredients, String location) throws SQLException {
         PreparedStatement ps = con
-                .prepareStatement("INSERT INTO recipes (name, tags, imgredients, location) VALUES (?,?,?,?)");
+                .prepareStatement("INSERT INTO recipes (name, tags, ingredients, location) VALUES (?,?,?,?)");
         ps.setString(1, name);
         ps.setString(2, tags);
         ps.setString(3, ingredients);
